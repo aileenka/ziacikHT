@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="searchingf.FXMLDocumentController">
+   <children>
+      <Button fx:id="game" layoutX="215.0" layoutY="101.0" mnemonicParsing="false" onAction="#gameEvent" prefHeight="34.0" prefWidth="171.0" text="Herný Mód">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="practice" layoutX="215.0" layoutY="166.0" mnemonicParsing="false" onAction="#practiceEvent" prefHeight="34.0" prefWidth="171.0" text="Testovací Mód">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="settings" layoutX="215.0" layoutY="229.0" mnemonicParsing="false" onAction="#settingsEvent" prefHeight="34.0" prefWidth="171.0" text="Nastavenia">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="exit" layoutX="215.0" layoutY="292.0" mnemonicParsing="false" onAction="#end" prefHeight="34.0" prefWidth="171.0" text="Ukončiť">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

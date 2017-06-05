@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="searchingf.FXMLhelpController">
+   <children>
+      <Button fx:id="back" layoutX="14.0" layoutY="447.0" mnemonicParsing="false" onAction="#backEvent" prefHeight="37.0" prefWidth="37.0" text="&lt;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="240.0" layoutY="14.0" text="Pomoc">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="150.0" layoutY="105.0" opacity="0.75" prefHeight="317.0" prefWidth="301.0" text="Cieľom hry je naučiť sa označenia&#10;nôt na notovej osnove. &#10;Po spustení hry sa zobrazí prvá nota.&#10;Ak zadáte označenie danej noty&#10;správne tak zaznie tón danej noty,&#10;tlačidlo sa rozsvieti na zeleno, &#10;zobrazí sa ďalšia nota a k správnym&#10;odpovediam a zároveň k pokusom&#10;sa pripočíta jeden bod. Ak však&#10;notu označíte zle, tlačidlo sa&#10;rozosvieti na červeno, zobrazí sa&#10;ďalšia nota a z celkového počtu&#10;pokusov sa jednotka odpočíta.&#10;" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="searchingf.FXMLgameController">
+   <children>
+      <Button fx:id="start" layoutX="215.0" layoutY="101.0" mnemonicParsing="false" onAction="#startOfGame" prefHeight="34.0" prefWidth="171.0" text="Štart">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="help" layoutX="215.0" layoutY="166.0" mnemonicParsing="false" onAction="#help" prefHeight="34.0" prefWidth="171.0" text="Pomoc">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="hs" layoutX="215.0" layoutY="229.0" mnemonicParsing="false" onAction="#highScore" prefHeight="34.0" prefWidth="171.0" text="HighScore">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="14.0" layoutY="447.0" mnemonicParsing="false" onAction="#backEvent" prefHeight="37.0" prefWidth="37.0" text="&lt;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

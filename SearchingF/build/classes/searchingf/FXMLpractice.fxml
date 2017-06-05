@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="searchingf.FXMLpracticeController">
+   <children>
+      <Text layoutX="451.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pokusy" wrappingWidth="47.40625">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="372.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Správne" wrappingWidth="55.40625">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="434.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="/" wrappingWidth="11.40625">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Label fx:id="right" layoutX="400.0" layoutY="31.0" prefHeight="25.0" prefWidth="25.0" text="0" />
+      <Label fx:id="tries" layoutX="451.0" layoutY="31.0" prefHeight="25.0" prefWidth="25.0" text="0" />
+      <Button fx:id="next" layoutX="51.0" layoutY="436.0" mnemonicParsing="false" onAction="#next" prefHeight="31.0" prefWidth="93.0" text="Ďalej" />
+      <Button layoutX="452.0" layoutY="436.0" mnemonicParsing="false" onAction="#exit" prefHeight="31.0" prefWidth="93.0" text="Ukončiť" />
+      <Line endX="400.0" layoutX="150.0" layoutY="127.0" startX="-100.0" strokeWidth="2.0" />
+      <Line endX="400.0" layoutX="150.0" layoutY="157.0" startX="-100.0" strokeWidth="2.0" />
+      <Line endX="400.0" layoutX="150.0" layoutY="187.0" startX="-100.0" strokeWidth="2.0" />
+      <Line endX="400.0" layoutX="150.0" layoutY="217.0" startX="-100.0" strokeWidth="2.0" />
+      <Line endX="400.0" layoutX="150.0" layoutY="247.0" startX="-100.0" strokeWidth="2.0" />
+      <Button fx:id="c" disable="true" layoutX="100.0" layoutY="316.0" mnemonicParsing="false" onAction="#cA" prefHeight="31.0" prefWidth="40.0" text="C" />
+      <Button fx:id="ces" disable="true" layoutX="100.0" layoutY="354.0" mnemonicParsing="false" onAction="#cesA" prefHeight="31.0" prefWidth="40.0" text="Cb" />
+      <Button fx:id="cis" disable="true" layoutX="140.0" layoutY="354.0" mnemonicParsing="false" onAction="#cisA" prefHeight="31.0" prefWidth="40.0" text="C#" />
+      <Button fx:id="d" disable="true" layoutX="180.0" layoutY="316.0" mnemonicParsing="false" onAction="#dA" prefHeight="31.0" prefWidth="40.0" text="D" />
+      <Button fx:id="des" disable="true" layoutX="180.0" layoutY="354.0" mnemonicParsing="false" onAction="#desA" prefHeight="31.0" prefWidth="40.0" text="Db" />
+      <Button fx:id="dis" disable="true" layoutX="220.0" layoutY="354.0" mnemonicParsing="false" onAction="#disA" prefHeight="31.0" prefWidth="40.0" text="D#" />
+      <Button fx:id="e" disable="true" layoutX="260.0" layoutY="316.0" mnemonicParsing="false" onAction="#eA" prefHeight="31.0" prefWidth="40.0" text="E" />
+      <Button fx:id="es" disable="true" layoutX="260.0" layoutY="354.0" mnemonicParsing="false" onAction="#esA" prefHeight="31.0" prefWidth="40.0" text="Eb" AnchorPane.topAnchor="354.0" />
+      <Button fx:id="f" disable="true" layoutX="300.0" layoutY="316.0" mnemonicParsing="false" onAction="#fA" prefHeight="31.0" prefWidth="40.0" text="F" AnchorPane.topAnchor="316.0" />
+      <Button fx:id="fis" disable="true" layoutX="300.0" layoutY="354.0" mnemonicParsing="false" onAction="#fisA" prefHeight="31.0" prefWidth="40.0" text="F#" AnchorPane.topAnchor="354.0" />
+      <Button fx:id="g" disable="true" layoutX="340.0" layoutY="316.0" mnemonicParsing="false" onAction="#gA" prefHeight="31.0" prefWidth="40.0" text="G" AnchorPane.topAnchor="316.0" />
+      <Button fx:id="ges" disable="true" layoutX="340.0" layoutY="354.0" mnemonicParsing="false" onAction="#gesA" prefHeight="31.0" prefWidth="40.0" text="Gb" AnchorPane.topAnchor="354.0" />
+      <Button fx:id="gis" disable="true" layoutX="380.0" layoutY="354.0" mnemonicParsing="false" onAction="#gisA" prefHeight="31.0" prefWidth="40.0" text="G#" AnchorPane.topAnchor="354.0" />
+      <Button fx:id="a" disable="true" layoutX="420.0" layoutY="316.0" mnemonicParsing="false" onAction="#aA" prefHeight="31.0" prefWidth="40.0" text="A" AnchorPane.topAnchor="316.0" />
+      <Button fx:id="Bb" disable="true" layoutX="460.0" layoutY="354.0" mnemonicParsing="false" onAction="#BbA" prefHeight="31.0" prefWidth="40.0" text="Bb" AnchorPane.topAnchor="354.0" />
+      <Button fx:id="b" disable="true" layoutX="460.0" layoutY="316.0" mnemonicParsing="false" onAction="#bA" prefHeight="31.0" prefWidth="40.0" text="B" AnchorPane.topAnchor="316.0" />
+      <Button fx:id="start" layoutX="254.0" layoutY="436.0" mnemonicParsing="false" onAction="#start" prefHeight="31.0" prefWidth="93.0" text="Štart" />
+      <ImageView fx:id="violinKey" fitHeight="188.0" fitWidth="217.0" layoutX="33.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Downloads/violin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="note0" fitHeight="51.0" fitWidth="55.0" layoutX="272.0" layoutY="251.0" AnchorPane.topAnchor="251.0">
+         <image>
+            <Image url="@../../../../../../Downloads/note.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="note1" fitHeight="51.0" fitWidth="55.0" layoutX="272.0" layoutY="236.0" AnchorPane.topAnchor="236.0">
+         <image>
+            <Image url="@../../../../../../Downloads/note.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="note2" fitHeight="51.0" fitWidth="55.0" layoutX="272.0" layoutY="221.0" AnchorPane.topAnchor="221.0">
+         <image>
+            <Image url="@../../../../../../Downloads/note.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="note3" fitHeight="51.0" fitWidth="55.0" layoutX="272.0" layoutY="206.0" AnchorPane.topAnchor="206.0">
+         <image>
+            <Image url="@../../../../../../Downloads/note.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="note4" fitHeight="51.0" fitWidth="55.0" layoutX="272.0" layoutY="192.0">
+         <image>
+            <Image url="@../../../../../../Downloads/note.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="note5" fitHeight="51.0" fitWidth="55.0" layoutX="272.0" layoutY="176.0" AnchorPane.topAnchor="176.0">
+         <image>
+            <Image url="@../../../../../../Downloads/note.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="note6" fitHeight="51.0" fitWidth="55.0" layoutX="272.0" layoutY="160.0">
+         <image>
+            <Image url="@../../../../../../Downloads/note.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="note7" fitHeight="51.0" fitWidth="55.0" layoutX="272.0" layoutY="146.0" AnchorPane.topAnchor="146.0">
+         <image>
+            <Image url="@../../../../../../Downloads/note.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="note8" fitHeight="51.0" fitWidth="55.0" layoutX="272.0" layoutY="132.0">
+         <image>
+            <Image url="@../../../../../../Downloads/note.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="note9" fitHeight="51.0" fitWidth="55.0" layoutX="272.0" layoutY="116.0" AnchorPane.topAnchor="116.0">
+         <image>
+            <Image url="@../../../../../../Downloads/note.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="note10" fitHeight="51.0" fitWidth="55.0" layoutX="272.0" layoutY="101.0">
+         <image>
+            <Image url="@../../../../../../Downloads/note.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="note11" fitHeight="51.0" fitWidth="55.0" layoutX="272.0" layoutY="86.0" AnchorPane.topAnchor="86.0">
+         <image>
+            <Image url="@../../../../../../Downloads/note.png" />
+         </image>
+      </ImageView>
+      <Line fx:id="helpLine" endX="-20.0" layoutX="359.0" layoutY="278.0" startX="-100.0" AnchorPane.bottomAnchor="221.5" AnchorPane.leftAnchor="258.5" />
+      <ImageView fx:id="sharp0" fitHeight="51.0" fitWidth="40.0" layoutX="232.0" layoutY="251.0">
+         <image>
+            <Image url="@../../../../../../Downloads/sharp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sharp1" fitHeight="51.0" fitWidth="40.0" layoutX="232.0" layoutY="236.0">
+         <image>
+            <Image url="@../../../../../../Downloads/sharp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sharp2" fitHeight="51.0" fitWidth="40.0" layoutX="232.0" layoutY="222.0">
+         <image>
+            <Image url="@../../../../../../Downloads/sharp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sharp3" fitHeight="51.0" fitWidth="40.0" layoutX="232.0" layoutY="206.0">
+         <image>
+            <Image url="@../../../../../../Downloads/sharp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sharp4" fitHeight="51.0" fitWidth="40.0" layoutX="232.0" layoutY="192.0">
+         <image>
+            <Image url="@../../../../../../Downloads/sharp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sharp5" fitHeight="51.0" fitWidth="40.0" layoutX="232.0" layoutY="176.0">
+         <image>
+            <Image url="@../../../../../../Downloads/sharp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sharp6" fitHeight="51.0" fitWidth="40.0" layoutX="232.0" layoutY="162.0">
+         <image>
+            <Image url="@../../../../../../Downloads/sharp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sharp7" fitHeight="51.0" fitWidth="40.0" layoutX="232.0" layoutY="146.0">
+         <image>
+            <Image url="@../../../../../../Downloads/sharp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sharp8" fitHeight="51.0" fitWidth="40.0" layoutX="232.0" layoutY="131.0">
+         <image>
+            <Image url="@../../../../../../Downloads/sharp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sharp9" fitHeight="51.0" fitWidth="40.0" layoutX="232.0" layoutY="116.0">
+         <image>
+            <Image url="@../../../../../../Downloads/sharp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sharp10" fitHeight="51.0" fitWidth="40.0" layoutX="232.0" layoutY="101.0">
+         <image>
+            <Image url="@../../../../../../Downloads/sharp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sharp11" fitHeight="51.0" fitWidth="40.0" layoutX="232.0" layoutY="86.0">
+         <image>
+            <Image url="@../../../../../../Downloads/sharp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="b0" fitHeight="78.0" fitWidth="81.0" layoutX="212.0" layoutY="233.0">
+         <image>
+            <Image url="@../../../../../../Downloads/b.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="b1" fitHeight="78.0" fitWidth="81.0" layoutX="212.0" layoutY="218.0">
+         <image>
+            <Image url="@../../../../../../Downloads/b.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="b2" fitHeight="78.0" fitWidth="81.0" layoutX="212.0" layoutY="204.0">
+         <image>
+            <Image url="@../../../../../../Downloads/b.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="b3" fitHeight="78.0" fitWidth="81.0" layoutX="212.0" layoutY="183.0">
+         <image>
+            <Image url="@../../../../../../Downloads/b.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="b4" fitHeight="78.0" fitWidth="81.0" layoutX="212.0" layoutY="172.0">
+         <image>
+            <Image url="@../../../../../../Downloads/b.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="b5" fitHeight="78.0" fitWidth="81.0" layoutX="212.0" layoutY="158.0">
+         <image>
+            <Image url="@../../../../../../Downloads/b.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="b6" fitHeight="78.0" fitWidth="81.0" layoutX="212.0" layoutY="137.0">
+         <image>
+            <Image url="@../../../../../../Downloads/b.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="b7" fitHeight="78.0" fitWidth="81.0" layoutX="212.0" layoutY="123.0">
+         <image>
+            <Image url="@../../../../../../Downloads/b.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="b8" fitHeight="78.0" fitWidth="81.0" layoutX="212.0" layoutY="107.0">
+         <image>
+            <Image url="@../../../../../../Downloads/b.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="b9" fitHeight="78.0" fitWidth="81.0" layoutX="212.0" layoutY="93.0">
+         <image>
+            <Image url="@../../../../../../Downloads/b.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="b10" fitHeight="78.0" fitWidth="81.0" layoutX="212.0" layoutY="77.0">
+         <image>
+            <Image url="@../../../../../../Downloads/b.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="b11" fitHeight="78.0" fitWidth="81.0" layoutX="212.0" layoutY="62.0">
+         <image>
+            <Image url="@../../../../../../Downloads/b.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

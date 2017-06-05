@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="searchingf.FXMLhighScoreListController">
+   <children>
+      <Label fx:id="hScore" alignment="TOP_CENTER" layoutX="211.0" layoutY="102.0" prefHeight="200.0" prefWidth="200.0" text="Label">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" layoutX="310.0" layoutY="101.0" startX="-100.0" />
+      <Text layoutX="206.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HighScore">
+         <font>
+            <Font size="46.0" />
+         </font>
+      </Text>
+      <Button fx:id="back" layoutX="14.0" layoutY="447.0" mnemonicParsing="false" onAction="#backEvent" prefHeight="37.0" prefWidth="37.0" text="&lt;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

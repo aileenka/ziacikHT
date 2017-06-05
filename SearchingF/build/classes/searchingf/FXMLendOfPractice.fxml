@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="searchingf.FXMLendOfPracticeController">
+   <children>
+      <Button layoutX="280.0" layoutY="430.0" mnemonicParsing="false" onAction="#backToMenu" text="OK" />
+      <Label fx:id="percentage" alignment="CENTER" disable="true" layoutX="88.0" layoutY="116.0" prefHeight="140.0" prefWidth="430.0" text="0%" textAlignment="CENTER">
+         <font>
+            <Font size="88.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" disable="true" layoutX="219.0" layoutY="75.0" prefHeight="41.0" prefWidth="167.0" text="Úspešnosť">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="joke" alignment="CENTER" layoutX="5.0" layoutY="316.0" prefHeight="62.0" prefWidth="590.0" />
+   </children>
+</AnchorPane>
